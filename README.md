@@ -3,6 +3,8 @@ c-nodes-example
 
 Erlang C Nodes example
 
+**Note**: Change hostname to alpha.example.com and add domain to `/etc/hosts` before testing.
+
 1.Test C node server example with short node names
 
 ```shell
@@ -50,13 +52,13 @@ Eshell V6.1  (abort with ^G)
 
 run the C node client
 
-```
+```shell
 $ ./cclient
 ```
 
 back to the erlang shell
 
-```
+```shell
 (e1@alpha)2> complex3:foo(3).
 4
 (e1@alpha)3> complex3:bar(5).
